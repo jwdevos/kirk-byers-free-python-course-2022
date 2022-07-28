@@ -1,0 +1,14 @@
+{%- if priority %}
+interface vlan 1
+   ip ospf priority {{ priority }}
+{%- endif %}
+
+router ospf {{ process_id }}
+   passive-interface default
+   {%- for int in non_passive_ints %}
+   no passive-interface {{ int }}
+   {%- endfor %}
+   {%- for net in networks %}
+   {{ net }}
+   {%- endfor %}
+   max-lsa 12000
