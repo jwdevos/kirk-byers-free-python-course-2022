@@ -13,6 +13,6 @@ Additional information about templates and data models:
   - 07 - Data Transformation Concepts - [link](https://www.ipspace.net/kb/DataModels/65-Data-Transformation.html)
   - 08 - Data Transformation Example - [link](https://www.ipspace.net/kb/DataModels/66-Transformation-Example.html)
   - 09 - Data Validation - [link](https://www.ipspace.net/kb/DataModels/70-Validation.html)
-- Jinja2 Template Documentation
-  - https://jinja.palletsprojects.com/en/2.10.x/templates/
+- More IPspace Jinja2 good stuff - [link](https://github.com/ipspace/NetOpsWorkshop/tree/master/Jinja2)
+- Jinja2 Template Documentation [link](https://jinja.palletsprojects.com/en/2.10.x/templates/)
 
