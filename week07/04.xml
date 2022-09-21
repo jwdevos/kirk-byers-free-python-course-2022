@@ -1,0 +1,15 @@
+<interfaces>
+  <Ethernet1>
+    <mode>access</mode>
+    <vlan>10</vlan>
+  </Ethernet1>
+  <Ethernet2>
+    <mode>access</mode>
+    <vlan>20</vlan>
+  </Ethernet2>
+  <Ethernet3>
+    <mode>trunk</mode>
+    <native_vlan>1</native_vlan>
+    <trunk_vlans>all</trunk_vlans>
+  </Ethernet3>
+</interfaces>
